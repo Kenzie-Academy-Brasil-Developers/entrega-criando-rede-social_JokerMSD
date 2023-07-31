@@ -1,0 +1,218 @@
+body{
+    font-family: 'Inter';
+}
+
+header{
+    display: flex;
+    background-color: var(--grey1);
+    padding: 1.5625rem;
+    border-radius: 0.438rem 0.438rem 0px 0px;
+    
+}
+
+.pheader{
+    display: flex;
+    font-weight: var(--Text2__Weight);
+    font-size: var(--Text2__Size);
+    line-height: var(--Text2__Line);
+    color: var(--grey3);
+    padding-left: 143.75rem;
+}
+
+.imgpost{
+    height: 3.125rem;
+  }
+
+.divpost{
+    margin-bottom: 0.938rem;
+    margin-top: 0.938rem;
+    display: flex;
+    /* background-color: gray; */
+}
+
+.h2postcontent{
+    font-weight: var(--Title1__Weight);
+    font-size: var(--Title1__Size);
+    line-height: var(--Title1__Line);
+    /* background-color: red; */
+}
+
+.h2suggestion{
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    margin-left: 5rem;
+    font-weight: var(--Title2__Weight);
+    font-size: var(--Title2__Size);
+    line-height: var(--Title2__Line);
+}
+
+.ppostcontent{
+    color: var(--grey2);
+    font-weight: var(--Text2__Weight);
+    font-size: var(--Text2__Size);
+    line-height: var(--Text2__Line);
+
+}
+
+.divpostcontent{
+    padding-left: 0.625rem;
+}
+
+.suggestion{
+    gap: 6.25rem;
+}
+
+.divsuggestion{
+    margin: 0.063rem;
+    margin-left: 5rem;
+    padding-right: 12.5rem;
+    display: flex;
+    /* background-color: greenyellow; */
+    align-content: center;
+}
+
+.divsuggestion2{
+    margin: 0.063rem;
+    margin-left: 5rem;
+    padding-right: 10.475rem;
+    display: flex;
+    /* background-color: greenyellow; */
+    align-content: center;
+}
+
+.divsuggestion3{
+    margin: 0.063rem;
+    margin-left: 5rem;
+    padding-right: 13.425rem;
+    display: flex;
+    /* background-color: greenyellow; */
+    align-content: center;
+}
+
+.follow{
+    border: 0.063rem solid var(--grey0);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.188rem;
+    cursor: pointer;
+}
+
+.follow:hover{
+    background-color: #4264eb57;
+    color: var(--brand1);
+}
+
+.follow:active{
+    background-color: var(--brand1);
+    color: var(--whiteFixed);
+}
+
+.submit{
+    background-color: var(--grey4);
+    color: var(--grey-opacity-1);
+    border: 0.063rem solid var(--grey4);
+    padding: 0.313rem;
+    border-radius: 0.188rem;
+    cursor: pointer;
+    margin-left: 35.313rem;
+    outline: none;
+}
+
+.lisuggestion{
+    display: flex;
+    margin-bottom: 4.375rem;
+}
+
+.ulsuggestion{
+    display: inline-block;
+}
+
+input{
+    text-align: start;
+    border: 0.063rem solid var(--grey-opacity-1);
+    display: flex;
+    margin: 0.938rem;
+    padding: 0.313rem 0.563rem 0.313rem;
+    padding-right: 23.625rem;
+}
+
+textarea{
+    border: 0.063rem solid var(--grey-opacity-1);
+    margin: 0.938rem;
+    padding: 2.813rem 1.188rem;
+    padding-right: 19.063rem;
+    display: flex;
+    resize: none;
+}
+
+.mainsection{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.25rem;
+}
+
+.likebutton{
+    margin-left: 1.563rem;
+    cursor: pointer;
+}
+
+.buttonpost{
+    border: 0.063rem solid var(--grey0);
+    background-color: var(--grey0);
+    color: var(--whiteFixed);
+    padding: 0.625rem;
+    border-radius: 0.188rem;
+    cursor: pointer;
+}
+.buttonsdiv{
+    display: flex;
+    margin-bottom: 1.875rem;
+    margin-top: 1.563rem;
+}
+
+.posts{
+    margin-left: 3.438rem;
+}
+
+.post1{
+    margin-left: 3.438rem;
+}
+
+.h2title{
+    margin-top: 1.25rem;
+    margin-bottom: 3.125rem;
+    font-weight: var(--Title1__Weight);
+    font-size: var(--Title1__Size);
+    line-height: var(--Title1__Line);
+}
+
+.h2post{
+    font-weight: var(--Title2__Weight);
+    font-size: var(--Title2__Size);
+    line-height: var(--Title2__Line);
+    margin-bottom: 10px;
+}
+
+.ptext{
+    font-weight: var(--Text1__Weight);
+    font-size: var(--Text1__Size);
+    line-height: var(--Text1__Line);
+}
+
+#trocarBtn{
+    background-color: white;
+
+    padding: 0.938rem;
+}
+
+#trocarBtn2{
+    background-color: white;
+
+    padding: 0.938rem;
+}
+
+#trocarBtn3{
+    background-color: white;
+
+    padding: 0.938rem;
+}
