@@ -25,6 +25,14 @@ header {
   cursor: pointer;
 }
 
+.pheader:hover {
+  color: var(--whiteFixed);
+}
+
+.pheader:active {
+  color: red;
+}
+
 .imgpost {
   height: 3.125rem;
 }
