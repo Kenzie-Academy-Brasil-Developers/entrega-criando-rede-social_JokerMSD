@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,7 +36,7 @@
               <p class="ppostcontent">Front end Engineer</p>
             </div>
           </div>
-
+  
           <!-- FORM DE CRIAÇÃO DE UM NOVO POST -->
           <form>
             <input
@@ -49,15 +49,15 @@
               name=""
               id=""
               cols="30"
-              rows="10"
+              rows="5"
               required=""
               ></textarea>
               <button class="submit" type="submit">Postar</button>
           </form>
-        </section>
-
-        <!-- SUGESTÕES PARA SEGUIR -->
-        <section class="suggestion">
+      </section>
+      
+      <!-- SUGESTÕES PARA SEGUIR -->
+      <section class="suggestion">
           <h2 class="h2suggestion">Sugestões para você seguir</h2>
           <ul class="ulsuggestion">
             <!-- SUGESTÃO 1 -->
@@ -69,7 +69,7 @@
                   <p class="ppostcontent">UX e UI Designer</p>
                 </div>
               </div>
-              <button class="follow">Seguir</button>
+              <button class="follow" data-user-id ='8'>Seguir</button>
             </li>
             <!-- SUGESTÃO 2 -->
             <li class="lisuggestion">
@@ -80,7 +80,7 @@
                   <p class="ppostcontent">Devop's</p>
                 </div>
               </div>
-              <button class="follow">Seguir</button>
+              <button class="follow" data-user-id ='7'>Seguir</button>
             </li>
             <!-- SUGESTÃO 3 -->
             <li class="lisuggestion">
@@ -91,7 +91,7 @@
                   <p class="ppostcontent">Fullstack Engineer</p>
                 </div>
               </div>
-              <button class="follow">Seguir</button>
+              <button class="follow" data-user-id ='6'>Seguir</button>
             </li>
           </ul>
         </section>
@@ -122,15 +122,16 @@
             cavaleiros Jedi, que compõem o lado bom da força.
           </p>
           <div class="buttonsdiv">
-            <button class="buttonpost">Abrir Post</button>
+            <button class="buttonpost" data-post-id="1">Abrir Post</button>
             <div>
-              <button id="trocarBtn">
-                <img id="imagem" class="likebutton"
+              <span id="trocarBtn" data-liked="false">
+                <img id="imagem" 
+                  class="likebutton"
                   src="./src/assets/img/gray-heart.svg"
                   alt="Empty Heart(Post not liked)"
                 />
-                </button>
-              <small>25</small>
+              </span>
+              <small id="small1">25</small>
             </div>
           </div>
         </article>
@@ -158,15 +159,16 @@
             conclusão do curso de fevereiro de 2023 a fevereiro de 2025.
           </p>
           <div class="buttonsdiv">
-            <button class="buttonpost">Abrir Post</button>
+            <button class="buttonpost" data-post-id="2">Abrir Post</button>
             <div>
-              <button id="trocarBtn2">
-                <img id="imagem2" class="likebutton"
+              <button id="trocarBtn2" data-liked="false">
+                <img id="imagem2"  
+                  class="likebutton"
                   src="./src/assets/img/gray-heart.svg"
                   alt="Empty Heart(Post not liked)"
                 />
                 </button>
-              <small>19</small>
+              <small id="small2">19</small>
             </div>
           </div>
         </article>
@@ -196,19 +198,25 @@
             vão para o objeto), e isso tem seu lado bom e ruim.
           </p>
           <div class="buttonsdiv">
-            <button class="buttonpost">Abrir Post</button>
+            <button class="buttonpost" data-post-id="3">Abrir Post</button>
             <div>
-              <button id="trocarBtn3">
-              <img id="imagem3" class="likebutton"
+              <button id="trocarBtn3" data-liked="false">
+              <img id="imagem3" 
+                class="likebutton"
                 src="./src/assets/img/gray-heart.svg"
                 alt="Empty Heart(Post not liked)"
               />
               </button>
-              <small>8</small>
+              <small id="small3">8</small>
             </div>
           </div>
         </article>
       </section>
+      <dialog id="post-modal">
+        <button id="close-modal">X</button>
+        <div id="modal-content">
+        </div>
+    </dialog>
     </main>
   </body>
 </html>
