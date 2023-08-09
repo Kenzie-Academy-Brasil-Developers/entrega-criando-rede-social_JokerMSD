@@ -169,7 +169,6 @@ function openModal(postId) {
               </div>
               <h2 class="h2postDialog">${post.title}</h2>
               <p class="ptextDialog">${post.text}</p>
-      <button id="followDialog" class="follow_follow-modal">Seguir</button>
   `;
   modal.showModal();
 
