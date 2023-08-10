@@ -352,4 +352,3 @@ function toggleLike(postId, button) {
 };
 
 updatePostsDisplay();
-

@@ -348,11 +348,22 @@ dialog {
   border: 0.063rem solid #ccc;
   border-radius: 0.938rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
-  position: relative;
+  position: fixed;
   left:10%;
   right: 10%;
   transform: translate(-50%, -50%);
   z-index: 100;
+  animation: modalIN 0.2s;
+}
+
+@keyframes modalIN{
+  0%{
+    scale: 0%;
+  }
+
+  100%{
+    scale: 1;
+  }
 }
 
 dialog::backdrop{
